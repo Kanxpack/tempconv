@@ -5,7 +5,7 @@ namespace Kanxpack\Tempconv;
 class TemperatureConverter
 {
     //Caller must provide the temperature value and the unit either C Celsius or F Fahrenheit
-    public function convert($temperature, $unit)
+    public static function convert($temperature, $unit)
     {
         //Checking whether the unit we're working with is Celsius or Fahrenheit
         if ($unit === 'C') {
